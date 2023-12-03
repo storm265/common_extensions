@@ -1,3 +1,3 @@
 # common_extensions
 
-A new Flutter project.
+when_snapshot_extension.dart - simple snapshots extension, allows reduce code; 
