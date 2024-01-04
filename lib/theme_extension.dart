@@ -8,6 +8,7 @@ extension ThemeModeExtension on BuildContext {
       MediaQuery.of(this).platformBrightness == Brightness.light ? true : false;
 }
 
+/// Example 
 class ThemeModeWidget extends StatefulWidget {
   const ThemeModeWidget({super.key});
 
