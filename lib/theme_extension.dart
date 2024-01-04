@@ -1,3 +1,4 @@
+import 'package:common_extensions/device_extension.dart';
 import 'package:flutter/material.dart';
 
 extension ThemeModeExtension on BuildContext {
@@ -8,7 +9,7 @@ extension ThemeModeExtension on BuildContext {
       MediaQuery.of(this).platformBrightness == Brightness.light ? true : false;
 }
 
-/// Example 
+/// Example
 class ThemeModeWidget extends StatefulWidget {
   const ThemeModeWidget({super.key});
 
@@ -19,6 +20,7 @@ class ThemeModeWidget extends StatefulWidget {
 class _ThemeModeWidgetState extends State<ThemeModeWidget> {
   @override
   Widget build(BuildContext context) {
+    debugPrint('is tablet ${context.isTablet}');
     return Center(
       child: Container(
         width: 100,
