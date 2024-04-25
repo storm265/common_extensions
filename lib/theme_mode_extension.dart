@@ -20,7 +20,7 @@ class ThemeModeWidget extends StatefulWidget {
 class _ThemeModeWidgetState extends State<ThemeModeWidget> {
   @override
   Widget build(BuildContext context) {
-    debugPrint('is tablet ${context.isTablet}');
+    debugPrint('is tablet ${context.isTabletDevice}');
     return Center(
       child: Container(
         width: 100,

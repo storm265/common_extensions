@@ -7,5 +7,5 @@ extension DeviceExtension on BuildContext {
   bool get isPortraitOrientation =>
       MediaQuery.of(this).orientation == Orientation.portrait ? true : false;
 
-  bool get isTablet => MediaQuery.of(this).size.shortestSide >= 600;
+  bool get isTabletDevice => MediaQuery.of(this).size.shortestSide >= 600;
 }
