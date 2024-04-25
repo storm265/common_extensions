@@ -1,7 +1,9 @@
 # common_extensions
 
-when_snapshot_extension.dart -  snapshots extension, allows reduce code; 
+`when_snapshot_extension` -  snapshots extension, allows reduce code; 
 
-theme_extension.dart - get isDark/isLight mode now; 
+`theme_extension`  - get isDark/isLight mode now; 
 
-device_extension.dart - about device; 
+`device_extension`  - about device (isLandscapeOrientation,isPortraitOrientation,isTabletDevice);
+
+`base64_extension`  - encodes text;
