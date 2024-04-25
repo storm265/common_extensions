@@ -1,4 +1,4 @@
-import 'package:common_extensions/theme_extension.dart';
+import 'package:common_extensions/theme_mode_extension.dart';
 import 'package:flutter/material.dart';
 
 void main() {
